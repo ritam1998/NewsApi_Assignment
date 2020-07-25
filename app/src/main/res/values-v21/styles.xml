@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.briefNews" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:statusBarColor">#00000000</item>
+    </style>
+    <style name="Toolbar.TitleText" parent="AppTheme.briefNews">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="WebView" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <color name="color_primary_dark">@android:color/black</color>
+</resources>
