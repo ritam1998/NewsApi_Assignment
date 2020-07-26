@@ -35,6 +35,8 @@ class MainActivity : AppCompatActivity(), GetAllDataListner {
 
         fetchData = FetchData()
         fetchData?.fetchData(this)
+
+        toolBar?.setTitle(R.string.app_name)
     }
 
     override fun getAllDataListner(worldTrendingNews: String) {
